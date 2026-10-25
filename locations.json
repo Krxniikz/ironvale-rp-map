@@ -20,16 +20,6 @@
     "public": true
   },
   {
-    "id": "cityhall",
-    "name": "City Hall",
-    "category": "Government",
-    "description": "Example marker — confirm location in your city",
-    "x": -545,
-    "y": -204,
-    "z": 38.2,
-    "public": true
-  },
-  {
     "id": "courthouse",
     "name": "Courthouse",
     "category": "Government",
@@ -56,26 +46,6 @@
     "description": "",
     "x": -47.6,
     "y": -1109.6,
-    "z": 0,
-    "public": true
-  },
-  {
-    "id": "sandy-shores-dealership",
-    "name": "Sandy Shores Dealership",
-    "category": "Business",
-    "description": "",
-    "x": 1827,
-    "y": -3353.8,
-    "z": 0,
-    "public": true
-  },
-  {
-    "id": "prison",
-    "name": "Prison",
-    "category": "Government",
-    "description": "",
-    "x": 1745.6,
-    "y": -2624.4,
     "z": 0,
     "public": true
   },

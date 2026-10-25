@@ -11,7 +11,6 @@ function render(){const shown=publicItems.filter(a=>(selected==='All'||a.categor
 function filters(){for(const cat of categories){const b=document.createElement('button');b.textContent=cat;b.className=cat===selected?'active':'';b.onclick=()=>{selected=cat;filtersRefresh();render()};$('filters').append(b)}}function filtersRefresh(){for(const b of $('filters').children)b.classList.toggle('active',b.textContent===selected)}filters();
 
 fetch('./locations.json').then(r=>{if(!r.ok)throw Error('Locations unavailable');return r.json()}).then(data=>{publicItems=data.filter(x=>x.public!==false);render()}).catch(e=>toast(e.message));
-})();
 $('search').addEventListener('input',e=>{query=e.target.value.trim().toLowerCase();render()});
 $('style').addEventListener('change',e=>tiles(e.target.value));
 $('reset').addEventListener('click',()=>map.setView([0,0],3));

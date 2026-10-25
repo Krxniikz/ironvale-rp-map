@@ -20,8 +20,8 @@
     "public": true
   },
   {
-    "id": "courthouse",
-    "name": "Courthouse",
+    "id": "city-hall",
+    "name": "City Hall",
     "category": "Government",
     "description": "",
     "x": -543.9,

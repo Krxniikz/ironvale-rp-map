@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mrpd",
+    "name": "Mission Row Police Department",
+    "category": "Police",
+    "description": "Example marker \u2014 confirm location in your city",
+    "x": 425.1,
+    "y": -979.5,
+    "z": 30.7,
+    "public": true
+  },
+  {
+    "id": "pillbox",
+    "name": "Pillbox Medical Center",
+    "category": "Medical",
+    "description": "Example marker \u2014 confirm location in your city",
+    "x": 307.0,
+    "y": -595.0,
+    "z": 43.3,
+    "public": true
+  },
+  {
+    "id": "cityhall",
+    "name": "City Hall",
+    "category": "Government",
+    "description": "Example marker \u2014 confirm location in your city",
+    "x": -545.0,
+    "y": -204.0,
+    "z": 38.2,
+    "public": true
+  }
+]
